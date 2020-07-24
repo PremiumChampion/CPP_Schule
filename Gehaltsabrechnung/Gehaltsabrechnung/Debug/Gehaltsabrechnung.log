@@ -1,0 +1,3 @@
+﻿  Gehaltsabrechnung.cpp
+C:\Users\twoit\source\repos\Gehaltsabrechnung\Gehaltsabrechnung\Gehaltsabrechnung.cpp(13,35): warning C4101:  "personalaufwandResult": Unreferenzierte lokale Variable
+  Gehaltsabrechnung.vcxproj -> C:\Users\twoit\source\repos\Gehaltsabrechnung\Debug\Gehaltsabrechnung.exe
