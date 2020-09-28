@@ -10,7 +10,6 @@ struct Geldschein
 
 int main()
 {
-	
 	double fixKosten = 0;
 	double produktKosten = 0;
 	double produktErloes = 0;
