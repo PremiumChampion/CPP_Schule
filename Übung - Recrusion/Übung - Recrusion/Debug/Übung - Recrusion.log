@@ -1,2 +1,3 @@
-﻿  Übung - Recrusion.cpp
-  Übung - Recrusion.vcxproj -> C:\Users\twoit\source\repos\C++\CPP_Schule\Wiederholung 1. Schuljahr\Übung - Recrusion\Debug\Übung - Recrusion.exe
+﻿  EAN.cpp
+C:\Users\twoit\source\repos\C++\CPP_Schule\Übung - Recrusion\Übung - Recrusion\EAN.cpp(13,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Übung - Recrusion.vcxproj -> C:\Users\twoit\source\repos\C++\CPP_Schule\Übung - Recrusion\Debug\Übung - Recrusion.exe

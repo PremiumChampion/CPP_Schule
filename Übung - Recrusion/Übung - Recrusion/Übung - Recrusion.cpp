@@ -1,19 +1,34 @@
+
 #include <iostream>
+#include <map>
+#include <iomanip>
+#include "Summe.h"
+#include "ModuloZehn.h"
+#include "EAN.h"
 
 using namespace std;
 
 int fakultaet(int number);
 int querSumme(int number);
-int fibonacci(double count);
+long double fibonacci(long double count);
+
 
 int main()
 {
 	cout << fakultaet(5) << endl;
 	cout << querSumme(12345) << endl;
-	for (int i = 0; i < 20; i++)
+	cout << Summe(5) << endl;
+	cout << CalculateChecksum(47111111) << endl;
+	cout << calculateEANChechsum(400262780027) << endl;
+	cout << calculateEANChechsum("400262780027") << endl;
+	//int i = 100;
+	//cout << fixed << setprecision(0) << fibonacci(i) << endl;
+
+	/*while (true)
 	{
-		cout << fibonacci(i) << "  ";
-	}
+		i++;
+		cout << fixed << setprecision(0) << fibonacci(i) << endl;
+	}*/
 	cout << endl;
 }
 
@@ -35,14 +50,32 @@ int querSumme(int number) {
 	}
 }
 
-int fibonacci(double count) {
-	if (count < 1) {
+
+long double fibonacci(long double n)
+{
+	if (n < 1) {
 		return 0;
 	}
-	if (count == 1 || count == 2) {
+	if (n == 1 || n == 2) {
 		return 1;
 	}
 	else {
-		return fibonacci(count - 1) + fibonacci(count - 2);
+		return fibonacci(n - 1) + fibonacci(n - 2);
 	}
+
+	/*static std::map<double, double> values;
+
+	if (n == 0 || n == 1)
+		return n;
+
+	std::map<double, double>::iterator iter = values.find(n);
+
+	if (iter == values.end())
+	{
+		return values[n] = fibonacci(n - 1) + fibonacci(n - 2);
+	}
+	else
+	{
+		return iter->second;
+	}*/
 }

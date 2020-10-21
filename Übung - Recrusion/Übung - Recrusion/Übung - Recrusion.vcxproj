@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EAN.cpp" />
+    <ClCompile Include="ModuloZehn.cpp" />
+    <ClCompile Include="Summe.cpp" />
     <ClCompile Include="Übung - Recrusion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EAN.h" />
+    <ClInclude Include="ModuloZehn.h" />
+    <ClInclude Include="Summe.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
